@@ -16,7 +16,7 @@ const SolarInverters = () => {
     {
       name: "固德威 MIN 5000TL-X",
       power: "5kW",
-      image: "/EcoMoTechWeb/images/Inverters/Growatt MAX 10KTL3-X.jpg",
+      image: "/EcoMoTechWeb_cn/images/Inverters/Growatt MAX 10KTL3-X.jpg",
       features: [
         "最高效率 98.4%",
         "双路 MPPT 跟踪器",
@@ -30,7 +30,7 @@ const SolarInverters = () => {
     {
       name: "固德威 MAX 10KTL3-X",
       power: "10kW",
-      image: "/EcoMoTechWeb/images/Inverters/Growatt MIN 5000TL-X.webp",
+      image: "/EcoMoTechWeb_cn/images/Inverters/Growatt MIN 5000TL-X.webp",
       features: [
         "最高效率 98.6%",
         "多路 MPPT 跟踪器",
@@ -44,7 +44,7 @@ const SolarInverters = () => {
     {
       name: "固德威 MAX 15KTL3-X",
       power: "15kW",
-      image: "/EcoMoTechWeb/images/Inverters/Growatt MAX 15KTL3-X in.avif",
+      image: "/EcoMoTechWeb_cn/images/Inverters/Growatt MAX 15KTL3-X in.avif",
       features: [
         "最高效率 98.8%",
         "三路 MPPT 跟踪器",
@@ -58,7 +58,7 @@ const SolarInverters = () => {
     {
       name: "阳光电源 SG8.0RT",
       power: "8kW",
-      image: "/EcoMoTechWeb/images/Inverters/Sungrow SG8.0RT.png",
+      image: "/EcoMoTechWeb_cn/images/Inverters/Sungrow SG8.0RT.png",
       features: [
         "最高效率 98.3%",
         "三路 MPPT 通道",
@@ -72,7 +72,7 @@ const SolarInverters = () => {
     {
       name: "阳光电源 SG10RT",
       power: "10kW",
-      image: "/EcoMoTechWeb/images/Inverters/Sungrow SG10RT.webp",
+      image: "/EcoMoTechWeb_cn/images/Inverters/Sungrow SG10RT.webp",
       features: [
         "最高效率 98.5%",
         "四路 MPPT 跟踪",
@@ -86,7 +86,7 @@ const SolarInverters = () => {
     {
       name: "阳光电源 SG12RT",
       power: "12kW",
-      image: "/EcoMoTechWeb/images/Inverters/Sungrow SG12RT.webp",
+      image: "/EcoMoTechWeb_cn/images/Inverters/Sungrow SG12RT.webp",
       features: [
         "最高效率 98.7%",
         "五路 MPPT 通道",
@@ -100,7 +100,7 @@ const SolarInverters = () => {
     {
       name: "古瑞瓦特 GW3000-NS",
       power: "3kW",
-      image: "/EcoMoTechWeb/images/Inverters/Goodwe GW3000-NS.jpg",
+      image: "/EcoMoTechWeb_cn/images/Inverters/Goodwe GW3000-NS.jpg",
       features: [
         "最高效率 97.8%",
         "单路 MPPT 跟踪器",
@@ -114,7 +114,7 @@ const SolarInverters = () => {
     {
       name: "古瑞瓦特 GW6000-DT",
       power: "6kW",
-      image: "/EcoMoTechWeb/images/Inverters/Goodwe GW6000-DT.jpg",
+      image: "/EcoMoTechWeb_cn/images/Inverters/Goodwe GW6000-DT.jpg",
       features: [
         "最高效率 98.2%",
         "双路 MPPT 跟踪器",
@@ -128,7 +128,7 @@ const SolarInverters = () => {
     {
       name: "古瑞瓦特 GW10K-DT",
       power: "10kW",
-      image: "/EcoMoTechWeb/images/Inverters/Goodwe GW10K-DT.webp",
+      image: "/EcoMoTechWeb_cn/images/Inverters/Goodwe GW10K-DT.webp",
       features: [
         "最高效率 98.4%",
         "双路 MPPT 设计",
@@ -142,7 +142,7 @@ const SolarInverters = () => {
     {
       name: "Ecoverter5",
       power: "5kW",
-      image: "/EcoMoTechWeb/images/Inverters/Ecoverter5.webp",
+      image: "/EcoMoTechWeb_cn/images/Inverters/Ecoverter5.webp",
       features: [
         "最高效率 98.5%",
         "双路 MPPT 通道",
@@ -156,7 +156,7 @@ const SolarInverters = () => {
     {
       name: "Ecoverter8",
       power: "8kW",
-      image: "/EcoMoTechWeb/images/Inverters/Ecoverter8.webp",
+      image: "/EcoMoTechWeb_cn/images/Inverters/Ecoverter8.webp",
       features: [
         "最高效率 98.7%",
         "三路 MPPT 系统",
@@ -170,7 +170,7 @@ const SolarInverters = () => {
     {
       name: "Ecoverter10",
       power: "10kW",
-      image: "/EcoMoTechWeb/images/Inverters/Ecoverter10.avif",
+      image: "/EcoMoTechWeb_cn/images/Inverters/Ecoverter10.avif",
       features: [
         "最高效率 98.9%",
         "四路 MPPT 技术",

@@ -14,35 +14,35 @@ const products = [
     id: "solar-inverters",
     title: "太阳能逆变器",
     description: "先进的逆变器技术，将直流电转换为可用的交流电。",
-    image: "/EcoMoTechWeb/images/Inverters/Growatt poducts inv.png",
+    image: "/EcoMoTechWeb_cn/images/Inverters/Growatt poducts inv.png",
     link: "/products/solar-inverters"
   },
   {
     id: "home-systems",
     title: "家用太阳能系统",
     description: "完整的住宅解决方案，实现能源独立和节约。",
-    image: "/EcoMoTechWeb/images/HomeSystem/6kW.jpg",
+    image: "/EcoMoTechWeb_cn/images/HomeSystem/6kW.jpg",
     link: "/products/home-systems"
   },
   {
     id: "street-lights",
     title: "太阳能路灯",
     description: "用于道路、人行道和公共空间的自主照明解决方案。",
-    image:"/EcoMoTechWeb/images/streetlights/road.jpg",
+    image:"/EcoMoTechWeb_cn/images/streetlights/road.jpg",
     link: "/products/street-lights"
   },
   {
     id: "energy-storage",
     title: "储能系统",
     description: "电池解决方案，用于在需要时存储多余的能量。",
-    image: "/EcoMoTechWeb/images/BESS/battery system.webp",
+    image: "/EcoMoTechWeb_cn/images/BESS/battery system.webp",
     link: "/products/energy-storage"
   },
   {
     id: "solar-pumbs",
     title: "太阳能水泵",
     description: "高效太阳能水泵，满足农业和灌溉需求。",
-    image: "/EcoMoTechWeb/images/Solar pumbs/SolarPumbs.jpeg",
+    image: "/EcoMoTechWeb_cn/images/Solar pumbs/SolarPumbs.jpeg",
     link: "/products/solar-pumbs"
   },
 ];

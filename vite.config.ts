@@ -13,7 +13,7 @@ export default defineConfig({
     port: 8080,
   },
   plugins: [react()],
-  base: '/EcoMoTechWeb/',  // Must match your GitHub repository name
+  base: '/EcoMoTechWeb_cn/',  // Must match your GitHub repository name
   server: {
     port: 3000,
     proxy: {

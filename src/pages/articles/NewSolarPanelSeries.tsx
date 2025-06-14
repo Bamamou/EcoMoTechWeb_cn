@@ -21,7 +21,7 @@ const NewSolarPanelSeries = () => {
             </div>
             
             <img
-              src="/EcoMoTechWeb/images/News/Ecomotech Launches New High-Efficiency Solar Panel Series.jpg"
+              src="/EcoMoTechWeb_cn/images/News/Ecomotech Launches New High-Efficiency Solar Panel Series.jpg"
               alt="新太阳能电池板系列"
               className="w-full h-[400px] object-cover rounded-lg mb-8"
             />

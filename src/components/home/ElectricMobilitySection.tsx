@@ -7,21 +7,21 @@ const mobilityProducts = [
     id: "electric-motorcycles",
     title: "电动摩托车",
     description: "用于城市出行的高性能电动摩托车。",
-    image: "/EcoMoTechWeb/images/Electric motorcycles/DM green.jpg",
+    image: "/EcoMoTechWeb_cn/images/Electric motorcycles/DM green.jpg",
     link: "/products/electric-motorcycles"
   },
   {
     id: "electric-tricycles",
     title: "电动三轮车",
     description: "多功能电动三轮车，适用于商业和个人用途。",
-    image: "/EcoMoTechWeb/images/Electric motorcycles/Higo white.webp",
+    image: "/EcoMoTechWeb_cn/images/Electric motorcycles/Higo white.webp",
     link: "/products/electric-tricycles"
   },
   {
     id: "ev-chargers",
     title: "电动汽车充电器",
     description: "用于家庭和商业应用的先进充电解决方案。",
-    image: "/EcoMoTechWeb/images/chargers/charger design.png",
+    image: "/EcoMoTechWeb_cn/images/chargers/charger design.png",
     link: "/products/ev-chargers"
   }
 ];

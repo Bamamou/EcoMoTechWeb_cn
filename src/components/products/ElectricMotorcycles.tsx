@@ -48,11 +48,11 @@ export const electricMotorcycleProducts: Product[] = [
       "Dimensions": "2100 x 800 x 1200 mm",
       "controller": "72V 800A",
     },
-    image: "/EcoMoTechWeb/images/Electric motorcycles/V9 Bleu.png",
+    image: "/EcoMoTechWeb_cn/images/Electric motorcycles/V9 Bleu.png",
     additionalImages: [
-      "/EcoMoTechWeb/images/Electric motorcycles/V9 Black.png",
-      "/EcoMoTechWeb/images/Electric motorcycles/V9 yellow Black.jpg",
-      "/EcoMoTechWeb/images/Electric motorcycles/V9 white.png"
+      "/EcoMoTechWeb_cn/images/Electric motorcycles/V9 Black.png",
+      "/EcoMoTechWeb_cn/images/Electric motorcycles/V9 yellow Black.jpg",
+      "/EcoMoTechWeb_cn/images/Electric motorcycles/V9 white.png"
     ]
   },
   {
@@ -90,11 +90,11 @@ export const electricMotorcycleProducts: Product[] = [
       "Brakes": "前置和后置液压盘式制动器",
 
     },
-    image: "/EcoMoTechWeb/images/Electric motorcycles/small open black.webp",
+    image: "/EcoMoTechWeb_cn/images/Electric motorcycles/small open black.webp",
     additionalImages: [
-      "/EcoMoTechWeb/images/Electric motorcycles/small open red.avif",
-      "/EcoMoTechWeb/images/Electric motorcycles/small open blueblack.webp",
-      "/EcoMoTechWeb/images/Electric motorcycles/small open.avif",
+      "/EcoMoTechWeb_cn/images/Electric motorcycles/small open red.avif",
+      "/EcoMoTechWeb_cn/images/Electric motorcycles/small open blueblack.webp",
+      "/EcoMoTechWeb_cn/images/Electric motorcycles/small open.avif",
     ]
   },
   {
@@ -133,11 +133,11 @@ export const electricMotorcycleProducts: Product[] = [
       "controller": "72V 800A",
       "Brakes": "前置和后置液压盘式制动器",
     },
-    image: "/EcoMoTechWeb/images/Electric motorcycles/KingChe blue.png",
+    image: "/EcoMoTechWeb_cn/images/Electric motorcycles/KingChe blue.png",
     additionalImages: [
-      "/EcoMoTechWeb/images/Electric motorcycles/KingChe red.jpg",
-      "/EcoMoTechWeb/images/Electric motorcycles/KingChe red front.jpg",
-      "/EcoMoTechWeb/images/Electric motorcycles/KingChe black.webp",
+      "/EcoMoTechWeb_cn/images/Electric motorcycles/KingChe red.jpg",
+      "/EcoMoTechWeb_cn/images/Electric motorcycles/KingChe red front.jpg",
+      "/EcoMoTechWeb_cn/images/Electric motorcycles/KingChe black.webp",
     ]
   },
 
@@ -177,11 +177,11 @@ export const electricMotorcycleProducts: Product[] = [
       "controller": "72V 800A",
       "Brakes": "前置和后置液压盘式制动器",
     },
-    image: "/EcoMoTechWeb/images/Electric motorcycles/alrendo dmg.png",
+    image: "/EcoMoTechWeb_cn/images/Electric motorcycles/alrendo dmg.png",
     additionalImages: [
-      "/EcoMoTechWeb/images/Electric motorcycles/DMG blue.jpg",
-      "/EcoMoTechWeb/images/Electric motorcycles/DMG charging.jpg",
-      "/EcoMoTechWeb/images/Electric motorcycles/DMG parking.avif",
+      "/EcoMoTechWeb_cn/images/Electric motorcycles/DMG blue.jpg",
+      "/EcoMoTechWeb_cn/images/Electric motorcycles/DMG charging.jpg",
+      "/EcoMoTechWeb_cn/images/Electric motorcycles/DMG parking.avif",
     ]
   }
 ];

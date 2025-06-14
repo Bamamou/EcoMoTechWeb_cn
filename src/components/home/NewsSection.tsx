@@ -8,7 +8,7 @@ const newsItems = [
     title: "Ecomotech 推出全新高效太阳能电池板系列",
     excerpt: "我们最新的太阳能电池板技术实现了创纪录的效率，使太阳能比以往任何时候都更易于获取和负担得起。",
     date: "2023 年 4 月 10 日",
-    image: "/EcoMoTechWeb/images/news/solar-panel-series.jpg",
+    image: "/EcoMoTechWeb_cn/images/news/solar-panel-series.jpg",
     link: "/news/new-solar-panel-series"
   },
   {

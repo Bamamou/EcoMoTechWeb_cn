@@ -7,20 +7,20 @@ const testimonials = [
     text: "作为一名企业主，我一直在寻找既可持续又具有经济意义的能源解决方案。Ecomotech 在这两个方面都表现出色。他们的商业太阳能安装在性能和投资回报方面都超出了我们的预期。",
     author: "Sarah Johnson",
     position: "企业主",
-    image: "/EcoMoTechWeb/images/AboutUs/businesowner.jpg"
+    image: "/EcoMoTechWeb_cn/images/AboutUs/businesowner.jpg"
   },
   {
     text: "改用 Ecomotech 的太阳能电池板大大降低了我们的能源费用和碳足迹。安装团队专业高效，系统运行一年多来一直完美无瑕。",
     author: "John Davis",
     position: "房主",
-    image: "/EcoMoTechWeb/images/AboutUs/customer.webp"
+    image: "/EcoMoTechWeb_cn/images/AboutUs/customer.webp"
   },
 
   {
     text: "Ecomotech 的储能系统彻底改变了我们偏远设施的状况。现在我们全天候都有可靠的电力，无论电网状况如何。在整个过程中，客户支持都非常出色。",
     author: "Michael Chen",
     position: "运营经理",
-    image: "/EcoMoTechWeb/images/AboutUs/customerbattery.png"
+    image: "/EcoMoTechWeb_cn/images/AboutUs/customerbattery.png"
   }
 ];
 

@@ -21,7 +21,7 @@ const StreetLighting = () => {
             </div>
             
             <img
-              src="/EcoMoTechWeb/images/News/Ecomotech Solar Street Lighting Transforms Urban Safety.jpg"
+              src="/EcoMoTechWeb_cn/images/News/Ecomotech Solar Street Lighting Transforms Urban Safety.jpg"
               alt="太阳能路灯"
               className="w-full h-[400px] object-cover rounded-lg mb-8"
             />

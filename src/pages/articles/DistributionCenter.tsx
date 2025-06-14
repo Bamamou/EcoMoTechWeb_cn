@@ -21,7 +21,7 @@ const DistributionCenter = () => {
             </div>
             
             <img
-              src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80"
+              src="/EcoMoTechWeb_cn/images/News/Charging stations.jpg"
               alt="新配送中心"
               className="w-full h-[400px] object-cover rounded-lg mb-8"
             />

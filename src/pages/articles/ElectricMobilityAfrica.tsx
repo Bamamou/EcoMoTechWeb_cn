@@ -21,7 +21,7 @@ const ElectricMobilityAfrica = () => {
             </div>
             
             <img
-              src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80"
+              src="/EcoMoTechWeb_cn/images/News/Charging stations.jpg"
               alt="非洲的电动摩托车"
               className="w-full h-[400px] object-cover rounded-lg mb-8"
             />

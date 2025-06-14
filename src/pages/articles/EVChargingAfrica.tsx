@@ -21,7 +21,7 @@ const EVChargingAfrica = () => {
             </div>
             
             <img
-              src="/EcoMoTechWeb/images/News/Charging stations.jpg"
+              src="/EcoMoTechWeb_cn/images/News/Charging stations.jpg"
               alt="电动汽车充电站"
               className="w-full h-[400px] object-cover rounded-lg mb-8"
             />
