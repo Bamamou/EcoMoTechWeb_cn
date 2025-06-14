@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecomotech - 可再生能源解决方案与太阳能系统</title>
+    <meta name="description" content="Ecomotech 提供创新的太阳能解决方案，包括太阳能电池板、逆变器、家用系统、路灯和储能解决方案，适用于住宅和商业用途。" />
+    <meta name="author" content="Ecomotech" />
+
+    <meta property="og:title" content="Ecomotech - 可再生能源解决方案与太阳能系统" />
+    <meta property="og:description" content="Ecomotech 提供创新的太阳能解决方案，包括太阳能电池板、逆变器、家用系统、路灯和储能解决方案，适用于住宅和商业用途。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/EcoMoTechWeb/images/electricmobility.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@ecomotech" />
+    <meta name="twitter:image" content="/EcoMoTechWeb/images/electricmobility.png" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/EcoMoTechWeb/images/electricmobility.png" />
+    <link rel="apple-touch-icon" href="/EcoMoTechWeb/images/electricmobility.png" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script>
+      // Check if we have a saved path from 404.html
+      (function() {
+        const savedPath = localStorage.getItem("path");
+        if (savedPath) {
+          localStorage.removeItem("path");
+          if (savedPath !== window.location.pathname) {
+            window.history.replaceState(null, null, savedPath);
+          }
+        }
+      })();
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
+
