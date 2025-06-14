@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -7,9 +7,13 @@ import { Phone, Mail, MapPin, Clock, ArrowUpRight } from "lucide-react";
 import { Icon } from '@iconify/react';
 import Layout from "@/components/layout/Layout";
 import { useToast } from "@/components/ui/use-toast";
+import contactImg from "../assets/img/contact-img.svg";
 
 const Contact = () => {
   const { toast } = useToast();
+  const form = useRef();
+  const [buttonText, setButtonText] = useState('发送');
+  const [status, setStatus] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
@@ -29,19 +33,14 @@ const Contact = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setButtonText("发送中...");
 
     try {
-      const result = await emailjs.send(
-        'ecomotech', // Replace with your EmailJS service ID
-        'ECOMOTECH', // Replace with your EmailJS template ID
-        {
-          from_name: formData.name,
-          from_email: formData.email,
-          subject: formData.subject,
-          message: formData.message,
-          to_name: 'Ecomotech Team',
-        },
-        'L2DkGjfmnyn-pOmed' // Replace with your EmailJS public key
+      const result = await emailjs.sendForm(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        form.current,
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       );
 
       if (result.status === 200) {
@@ -51,6 +50,8 @@ const Contact = () => {
           variant: "default",
         });
         
+        setStatus({ success: true, message: '消息发送成功' });
+        
         // Reset form
         setFormData({
           name: '',
@@ -58,8 +59,17 @@ const Contact = () => {
           subject: '',
           message: ''
         });
+      } else {
+        setStatus({ success: false, message: '出错了，请稍后再试。' });
+        toast({
+          title: "错误",
+          description: "发送消息失败。请稍后再试。",
+          variant: "destructive",
+        });
       }
     } catch (error) {
+      console.error('错误:', error);
+      setStatus({ success: false, message: '出错了，请稍后再试。' });
       toast({
         title: "错误",
         description: "发送消息失败。请稍后再试。",
@@ -67,6 +77,7 @@ const Contact = () => {
       });
     } finally {
       setIsSubmitting(false);
+      setButtonText("发送");
     }
   };
 
@@ -277,7 +288,7 @@ const Contact = () => {
                 我们很高兴收到您的来信。请填写以下表格，我们的团队将尽快回复您。
               </p>
 
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form ref={form} onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <label htmlFor="name" className="block text-gray-700 font-medium mb-2">
