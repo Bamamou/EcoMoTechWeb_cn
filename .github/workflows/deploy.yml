@@ -2,61 +2,60 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ['main']
-
-permissions:
-  contents: write
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
+    
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+    - uses: actions/checkout@v3
 
-      - name: Set up Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        cache: 'npm'
 
-      - name: Install dependencies
-        run: npm ci
+    - name: Install dependencies
+      run: npm ci
 
-      - name: Install crypto-browserify
-        run: npm install crypto-browserify stream-browserify
+    - name: Install crypto-browserify
+      run: npm install crypto-browserify stream-browserify
 
-      - name: Update Vite config
-        run: |
-          echo "import { defineConfig } from 'vite';
-          import react from '@vitejs/plugin-react-swc';
-          import path from 'path';
+    - name: Update Vite config
+      run: |
+        echo "import { defineConfig } from 'vite';
+        import react from '@vitejs/plugin-react-swc';
+        import path from 'path';
 
-          export default defineConfig({
-            server: {
-              host: true,
-              port: 8080,
-              open: true,
-            },
-            plugins: [react()],
-            base: '/EcoMoTechWeb/',
-            resolve: {
-              alias: {
-                '@': path.resolve(__dirname, './src'),
-                crypto: 'crypto-browserify',
-                stream: 'stream-browserify'
-              }
-            },
-            define: {
-              global: {},
-              'process.env': {}
+        export default defineConfig({
+          server: {
+            host: true,
+            port: 8080,
+            open: true,
+          },
+          plugins: [react()],
+          base: '/EcoMoTechWeb/',
+          resolve: {
+            alias: {
+              '@': path.resolve(__dirname, './src'),
+              crypto: 'crypto-browserify',
+              stream: 'stream-browserify'
             }
-          });" > vite.config.ts
+          },
+          define: {
+            global: {},
+            'process.env': {}
+          }
+        });" > vite.config.ts
 
-      - name: Build
-        run: npm run build
+    - name: Build
+      run: npm run build
 
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: dist
-          branch: gh-pages
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./dist
