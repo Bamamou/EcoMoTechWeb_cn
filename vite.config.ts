@@ -32,6 +32,7 @@ export default defineConfig({
     chunkSizeWarningLimit: 1000,
     outDir: 'dist',
     assetsDir: 'assets',
+    emptyOutDir: true,
     sourcemap: true,
     rollupOptions: {
       output: {
